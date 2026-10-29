@@ -1,0 +1,42 @@
+{
+  "name": "aeitron/api-sdk",
+  "description": "Official zero-dependency PHP SDK for Aeitron intelligent edge services, network routing, DNS, compute placement, and AI orchestration.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "aeitron",
+    "edge",
+    "cdn",
+    "waf",
+    "dns",
+    "ai-orchestration",
+    "infrastructure",
+    "sdk"
+  ],
+  "authors": [
+    {
+      "name": "Aeitron Engineering",
+      "email": "service@aeitron.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0 || ^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aeitron\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Aeitron\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "minimum-stability": "stable"
+}
