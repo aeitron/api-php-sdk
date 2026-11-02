@@ -67,3 +67,4 @@ class WebhookTest extends TestCase
         WebhookSignature::verify($payload, $header, $this->secret);
     }
 }
+

@@ -15,3 +15,4 @@ class NotFoundException extends AeitronException
         parent::__construct(404, $message, $errorCode, $requestId, $errorDetails);
     }
 }
+

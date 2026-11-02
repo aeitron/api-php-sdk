@@ -65,3 +65,4 @@ class CurlTransport implements TransportInterface
         return new Response($statusCode, $responseHeaders, (string) $rawResponse);
     }
 }
+

@@ -14,14 +14,16 @@ class ValidationException extends AeitronException
      * @param string $errorCode
      * @param array<string, mixed> $validationErrors
      * @param string|null $requestId
+     * @param int $statusCode
      */
     public function __construct(
         string $message = 'Validation failed for request parameters.',
         string $errorCode = 'VALIDATION_ERROR',
         array $validationErrors = [],
-        ?string $requestId = null
+        ?string $requestId = null,
+        int $statusCode = 422
     ) {
-        parent::__construct(422, $message, $errorCode, $requestId, $validationErrors);
+        parent::__construct($statusCode, $message, $errorCode, $requestId, $validationErrors);
         $this->validationErrors = $validationErrors;
     }
 
@@ -33,3 +35,4 @@ class ValidationException extends AeitronException
         return $this->validationErrors;
     }
 }
+

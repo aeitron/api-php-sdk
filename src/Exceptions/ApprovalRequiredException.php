@@ -39,3 +39,4 @@ class ApprovalRequiredException extends AeitronException
         return $this->recordId;
     }
 }
+

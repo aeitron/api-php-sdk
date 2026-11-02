@@ -73,3 +73,4 @@ class RetryTest extends TestCase
         $this->assertCount(2, $mock->getRecordedRequests(), 'POST with Idempotency-Key must safely retry transient 500');
     }
 }
+

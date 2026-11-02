@@ -24,3 +24,4 @@ class RateLimitException extends AeitronException
         return $this->retryAfterSeconds;
     }
 }
+

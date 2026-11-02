@@ -15,3 +15,4 @@ class ConflictException extends AeitronException
         parent::__construct(409, $message, $errorCode, $requestId, $errorDetails);
     }
 }
+

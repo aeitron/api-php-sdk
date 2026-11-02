@@ -15,3 +15,4 @@ class ExpiredException extends AeitronException
         parent::__construct(410, $message, $errorCode, $requestId, $errorDetails);
     }
 }
+

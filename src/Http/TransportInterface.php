@@ -27,3 +27,4 @@ interface TransportInterface
         float $timeoutSeconds
     ): Response;
 }
+

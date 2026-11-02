@@ -89,3 +89,4 @@ class Response
         return $decoded;
     }
 }
+

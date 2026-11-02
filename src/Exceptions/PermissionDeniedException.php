@@ -15,3 +15,4 @@ class PermissionDeniedException extends AeitronException
         parent::__construct(403, $message, $errorCode, $requestId, $errorDetails);
     }
 }
+

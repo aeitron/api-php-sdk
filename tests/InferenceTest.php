@@ -53,3 +53,4 @@ class InferenceTest extends TestCase
         $this->assertSame('GLOBAL', $payload['jurisdiction']);
     }
 }
+

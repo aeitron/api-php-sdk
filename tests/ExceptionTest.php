@@ -186,3 +186,4 @@ class ExceptionTest extends TestCase
         $client->request('GET', '/v1/health');
     }
 }
+

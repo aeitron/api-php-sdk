@@ -100,3 +100,4 @@ class DnsTest extends TestCase
         $this->assertSame('del_tok_signed_payload_123', $req['headers']['X-Aeitron-Approval-Token']);
     }
 }
+

@@ -210,7 +210,7 @@ class AeitronClient
 
         switch ($statusCode) {
             case 400:
-                throw new ValidationException($message, $errorCode, is_array($details) ? $details : [], $requestId);
+                throw new ValidationException($message, $errorCode, is_array($details) ? $details : [], $requestId, 400);
             case 401:
                 throw new AuthenticationException($message, $errorCode, $requestId, $details);
             case 403:

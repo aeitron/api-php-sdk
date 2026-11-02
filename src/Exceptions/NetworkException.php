@@ -22,3 +22,4 @@ class NetworkException extends AeitronException
         return $this->curlErrorCode;
     }
 }
+

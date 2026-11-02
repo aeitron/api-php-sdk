@@ -88,3 +88,4 @@ class MockTransport implements TransportInterface
         $this->recordedRequests = [];
     }
 }
+

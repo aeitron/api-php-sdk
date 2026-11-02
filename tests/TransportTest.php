@@ -50,3 +50,4 @@ class TransportTest extends TestCase
         $client->request('GET', '/v1/health');
     }
 }
+

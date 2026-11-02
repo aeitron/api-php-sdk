@@ -15,3 +15,4 @@ class AuthenticationException extends AeitronException
         parent::__construct(401, $message, $errorCode, $requestId, $errorDetails);
     }
 }
+

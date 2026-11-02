@@ -73,3 +73,4 @@ class WebhookSignature
         throw new AuthenticationException('Webhook signature verification failed. Computed signature does not match header.');
     }
 }
+

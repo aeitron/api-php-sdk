@@ -16,3 +16,4 @@ class ServerException extends AeitronException
         parent::__construct($statusCode, $message, $errorCode, $requestId, $errorDetails);
     }
 }
+
